@@ -21,10 +21,12 @@ p{
     margin-top: 0;
  height:20px;   
 }
-img{vertical-align: middle;
+img{
+    vertical-align: middle;
 border-style: none;
 }
 caption{
+background-color: aquamarine;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     color: #6c757d;
