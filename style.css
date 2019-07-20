@@ -1,0 +1,35 @@
+body{
+    background-image:url("https://media.gettyimages.com/photos/spring-field-picture-id539016480?s=612x612");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left; 
+}
+html{
+    font-family: sans-serif;
+    line-height: 2;
+    -webkit-text-size-adjust: 50%;
+}
+header{
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+p{
+    margin-top: 0;
+ height:20px;   
+}
+img{vertical-align: middle;
+border-style: none;
+}
+caption{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #6c757d;
+    text-align: left;
+}
+button{
+    border-radius: 0;
+}
