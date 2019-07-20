@@ -14,7 +14,7 @@ function day(){
          document.getElementById("akan-name").innerHTML=female[Math.round(weekDay);
     
         }else if(choice==="male"){
-            console.log(male[Math.fround(weekDay)]);
+            console.log(male[Math.round(weekDay)]);
             document.getElementById("akan-name").innerHTML=male[Math.around(weekDay);
 
         }else{
