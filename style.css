@@ -26,15 +26,14 @@ img{
     vertical-align: middle;
 border-style: none;
 }
-caption{
-background-color: aquamarine;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    color: blueviolet;
-    text-align: left;
+form{
+    padding: 20px;
+    margin: 30px;
+    float: left;
 }
 button{
     border-radius: 0;
+    
 }
 h{
     margin-left: 0%;
