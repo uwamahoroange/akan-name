@@ -1,31 +1,35 @@
 <!DOCTYPE html>
+
 <head>
-    <link href="styles.css" rel="stylesheet" type="text/css"
-    <link href="bootstrap.css" rel="sytlesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="bootstrap.css" rel=stylesheet" type="text/css">
     <link href="index.html" rel="sytlesheet" type="text/css">
-</head>       
+    <script src="script.js"></script>
+</head>
 <div class="content">
     <div class="card-body">
-    <div class="jumbotron">
-    <p> akan-name</p>
-     birthday:<br>
-     <input type="text" id="birthday"><br>
-     month:<br>
-     <input type="text" id="month"><br>
-     year:<br>
-     <input type="text" id="year"><br>
-     <select id="select">
-         <option value="male"></option>
-         <option value="female"></option>
-         <input type="submit">
-         <p id="result"></p>
-         <p></p>
+        <div class="jumbotron">
+            <p> akan-name</p>
+            birthday:<br>
+            <input type="text" id="birthday"><br>
+            month:<br>
+            <input type="text" id="month"><br>
+            year:<br>
+            <input type="text" id="year"><br>
+            <select id="select">
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+            <button onclick="weekday()">Submit</button>
+            <p id="result"></p>
+            <p id="select"></p>
+            <p></p>
 
-    </div>
+        </div>
     </div>
 </div>
-   <body>
-      
 
-   </body> 
+<body>
 
+
+</body>

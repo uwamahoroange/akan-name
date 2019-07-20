@@ -1,5 +1,5 @@
 body{
-    background-image:url("https://media.gettyimages.com/photos/spring-field-picture-id539016480?s=612x612");
+    background-image: url("http://hdwpro.com/wp-content/uploads/2015/12/Widescreen-Image.jpg");
     background-size: cover;
     background-repeat: no-repeat; 
     font-weight: 400;
@@ -28,9 +28,9 @@ border-style: none;
 }
 caption{
 background-color: aquamarine;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    color: #6c757d;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: blueviolet;
     text-align: left;
 }
 button{
