@@ -1,22 +1,22 @@
 function weekday() {
-    var DD = parseFloat(document.getElementById("null").value);
-    var MM = parseFloat(document.getElementById("two").value);
-    var YY = parseFloat(Document.getElementById("four").value);
+    var DD = parseFloat(document.getElementById("day")).value;
+    var MM = parseFloat(document.getElementById("month")).value;
+    var YY = parseFloat(document.getElementById("year")).value;
     var cc = (YY - 1) / 100 + 1;
-    var weekday = (((cc / 4) - 2 * cc - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;
-    Document.getElementById("Result").innerHTML = Math.round(weekday);
+    var weekday = Math.round((((cc / 4) - 2 * cc - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7);
+    
     var female = ["kwasi", "kwadwo", "kwabena", "kwaku", "kofi", "kwame"];
     var male = ["akosua", "Adwoa", "abenaa", "akua", "yaa", "afua", "ama"];
-    var choice = document.getElementById("select").value;
+    var choice = document.getElementById("result").value;
     if (choice === "male") {
-        console.log(male[Math.round(weekday)]);
-        document.getElementById("akan-name").innerHTML = MALE[Math.round(weekenday)];
+        if(weekday===7) {
+            document.getElementById("result").innerHTML = male[weekday];
+        }
     } else if (choice === "female") {
-        console.log(female[Math.round(weekday)]);
-        document.getElementById("akan-name").innerHTML = female[Math.round(weekday)];
+        if(weekday===7) {
+            document.getElementById("result").innerHTML = female[weekday];
+        }
     }
-    else {
-        console.log("invalid output");
-    }
+    
 }
 

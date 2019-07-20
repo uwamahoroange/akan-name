@@ -1,35 +1,39 @@
 <!DOCTYPE html>
+<html>
 
-<head>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="bootstrap.css" rel=stylesheet" type="text/css">
-    <link href="index.html" rel="sytlesheet" type="text/css">
-    <script src="script.js"></script>
-</head>
-<div class="content">
-    <div class="card-body">
-        <div class="jumbotron">
-            <p> akan-name</p>
-            birthday:<br>
-            <input type="text" id="birthday"><br>
-            month:<br>
-            <input type="text" id="month"><br>
-            year:<br>
-            <input type="text" id="year"><br>
-            <select id="select">
-                <option value="male">male</option>
-                <option value="female">female</option>
-            </select>
-            <button onclick="weekday()">Submit</button>
-            <p id="result"></p>
-            <p id="select"></p>
-            <p></p>
+    <head>
+        <link href="bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>Akan Names</title>
+    </head>
 
-        </div>
-    </div>
-</div>
+    <body>
+            <div class="content">
+                    <div class="card-body">
+                        <div class="jumbotron">
+                            <p> akan-name</p>
+                            
+                            <label for="day">Day</label>
+                            <input type="number" class="form-control id=day">
 
-<body>
+                            <label for="month">Month</label>
+                            <input type="number" class="form-control" id="month">
+                            
+                            <label for="year">Year</label>
+                            <input type="number" class="form-control" id="year">
+                            <select id="select">
+                                <option value="male">male</option>
+                                <option value="female">female</option>
+                            </select>
+                            <button onclick="weekday()">Submit</button>
+                            <p id="result"></p>
+                            
+                            
+                
+                        </div>
+                    </div>
+            </div>
+                <script src="script.js"></script>
 
-
-</body>
+    </body>
+</html>
