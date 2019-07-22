@@ -6,25 +6,33 @@
     <link href="style.css" rel="stylesheet" type="text/css">
     <script src="script.js"></script>
     <title>Akan Names</title>
+  
 </head>
-
+<p> The application should output to the 
+        user their Akan name depending on their gender. For 
+        example, if a user is male and the result of the calculation is
+         0, then the application should match that with Kwasi since Kwasi 
+         corresponds to Sunday which has an index 0. Hence the output the user
+         will see should be something like “Your Akan name is Kwasi”</p>
 <body>
     <div class="content">
         <div class="card-body">
             <div class="jumbotron">
                 <p> akan-name</p>
-                day<br>
-                <input type="number" id=day"><br>
-                  month<br>
-                <input type=" id="month"><br>
-              YEAR<br>
-                <input type="number" id="year"><br>
+                <br>
+                <input type="number" id="day">day<br>
+                  <br>
+                <input type="number" id="month">month<br>
+              <br>
+                <input type="number" id="year">year<br>
+
                 <select id="select">
                     <option value="male">male</option>
                     <option value="female">female</option>
                 </select>
-                <button onclick="weekday()">Submit</button>
+            <imput type="button" onclick="day();">submit</imput>
                 <p id="result"></p>
+                <p id="name"></p>
             </div>
         </div>
     </div>
